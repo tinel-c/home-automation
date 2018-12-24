@@ -11,14 +11,14 @@ Home automation environment and hardware
 
 **Code:** https://github.com/tinel-c/home-automation/blob/master/02_Sensors/02_Distance_sensor/01_HC-SR04/distance_sensor/distance_sensor.ino
 
-![Arduino NANO](https://i.ibb.co/3TqgqXY/item-XL-33481986-131319390.jpg =100x)
+![Arduino NANO](https://i.ibb.co/3TqgqXY/item-XL-33481986-131319390.jpg)
 
 #### Arduino library used
 
 - **HCSR04** by Martin Sosic
 - Link github: https://github.com/Martinsos/arduino-lib-hc-sr04
 
-![HC-SR04](https://i.ibb.co/3pgnYvw/HC-SR04.jpg =100x)
+![HC-SR04](https://i.ibb.co/3pgnYvw/HC-SR04.jpg)
 
 ### WIFI controller: ESP8266
 
