@@ -19,9 +19,6 @@
 #define MQTT_LOG_ENABLED 1
 // Include library
 #include <MqttClient.h>
-//https://arduino-esp8266.readthedocs.io/en/2.5.0-beta2/reference.html#digital-io
-//https://www.arduino.cc/en/Tutorial/MasterReader
-#include <Wire.h>
 
 //local wifi configuration
 #define WIFI_NAME "Tinel_home_2"
@@ -127,8 +124,6 @@ void setup() {
       ESP.reset();
     }
   }
-  // Wire setup
-  Wire.begin();        // join i2c bus (address optional for master)
 }
 
 // ============== Main loop ====================================================
@@ -157,13 +152,6 @@ void loop() {
     }
   }
   LOG_PRINTFLN("Status is Connected");
-
-  Wire.requestFrom(8, 6);    // request 6 bytes from slave device #8
-
-  while (Wire.available()) { // slave may send less than requested
-    char c = Wire.read(); // receive a byte as character
-    Serial.print(c);         // print the character
-  }
   // Some delay
   delay(5000);
   // Disconnect the network and wait for some time until the LWT is triggered by the broker
