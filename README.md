@@ -26,3 +26,7 @@ Home automation environment and hardware
 
 - **ArduinoMqtt** by Oleg Kovalenko
 - Link github: https://github.com/monstrenyatko/ArduinoMqtt
+
+## Sonoff mod
+DEbug connection:
+https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-Basic#serial-connection
